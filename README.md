@@ -1,1 +1,9 @@
 # LyricsToGenre
+
+The following research was used for the completion of the Scientific Computation and Data Science certificate at the University of Texas at Austin whilst in school for my Bachelors of Science in Mathematics. 
+
+This repo contains different trials of Python scripts as well as images and results from the research. All process, analyses, and conclusions are compiled in the PDF titled SoominChoResearchPaper.
+
+*A Comparison of Statistical Learning Models in Predicting SongGenre Using Lyrics* explores different kernels of Support Vector Machines - linear, radial basis function, polynomial, and sigmoid. This research was done through the scikit-learn library of Python in which multiclass statistical learning classifier models were trained on a set of songs extracted from the API of *genius.com*, a website that hosts contemporary song information and promotes collaboration of users in correcting, discussing, and interpreting song lyrics. 
+
+Lyrics of each song were divided into words and their frequencies and both were used as the predictor variable. The genres in question were Rap, Pop, Country, R&B, and Rock. This research explored data manipulation, big data memory limitations, and training models using word frequency. The confusion matrices and scores, often referred to as accuracy, of each multi-classification model are displayed in the Results section of this paper. The classifier that performed the best was the Support Vector Machine with a sigmoid kernel and the worst was the Support Vector Machine with a polynomial kernel. Rap and Rock songs were predicted correctly relatively well compared to the other three genres.
