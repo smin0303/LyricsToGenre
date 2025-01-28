@@ -10,9 +10,7 @@ import time
 columns = ['title', 'artists', 'lyrics', 'word freq', 'unique word count', 'total word count', 'genres']
 api_df = pd.DataFrame(columns=columns)
 
-# client_id = "uZUb20i2y9FGlw887W1AQzWffVqRnx-AP4s5v9xSk8WvTbivjJlvheDnpgBM_xkz"
-# client_secret = "JnANeUx2KrOAtYqLKqko54rIbnpzpCiG_HC70IdPK6S4c16iWmD0qd-6QN0eHHkEpzWKt1-0LLUup4FiXIG_FQ"
-access_token = "f7upmRHup3nrB3HlLc4qh7jeP8dK3dSeW2m-mWbzPrQjWvE79xag0N4_M4RQ4Msl"
+access_token = "access_token_from_genius_api"
 
 token = 'Bearer {}'.format(access_token)
 headers = {'Authorization': token}
